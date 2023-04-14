@@ -42,7 +42,6 @@ def solution(users, bans):
     for l in ls:
         ls2.append(sorted(l))
     st = set(map(tuple, ls2))
-    print(st)
     return len(st)
 
 
